@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Магистрская работа</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Панько А.Ю.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="https://github.com/Moom1ntroll/nonsense/blob/master/%D1%84%D0%BC.JPG" alt="Панько А.Ю." class="photo">
+            <p>
+                Закончил биологический факультет БГУ в 2017 по специальности "биоэкология".
+                За время обучения неоднократно являлся участником различных научных конференций.
+                В настоящее время является магистрантом биологического факультета БГУ дневной формы обучения
+                специальность "биология".
+                Имеется 7 научных публикаций.
+                
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Выпускная работа по ИТ</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Moom1ntroll/nonsense/blob/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%9F%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%20%D0%90.%D0%AE..pdf">Дипломная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="http://bio.bsu.by/ecology/zhukova_ru.html" target="_blank">Жукова А.А.</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
